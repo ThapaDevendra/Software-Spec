@@ -10,7 +10,7 @@ public class randomNum extends HttpServlet{
 @Override
 public void doGet (HttpServletRequest req, HttpServletResponse resp) throws IOException{
     resp.setContentType("text/plain");
-    resp.getWriter.println(" Devendra World");
+    resp.getWriter.println("Devendra World");
 }
 
 }
